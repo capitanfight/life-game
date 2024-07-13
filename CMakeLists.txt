@@ -8,8 +8,7 @@ file(GLOB SOURCES
         src/*.c
 )
 
-add_executable(${PROJECT_NAME} ${SOURCES} main.c
-        src/game.c)
+add_executable(${PROJECT_NAME} ${SOURCES} main.c)
 
 # --- SDL2 SETUP ---
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules)

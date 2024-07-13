@@ -4,7 +4,7 @@
 #include "src/game.h"
 
 int main(int argc, char* args []) {
-    if (init("Life game", windDim.width, windDim.height)) {
+    if (init("Game of life", windDim.width, windDim.height)) {
         closeGame();
         return 1;
     }
